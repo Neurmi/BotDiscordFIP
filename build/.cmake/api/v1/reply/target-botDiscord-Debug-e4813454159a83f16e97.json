@@ -1,0 +1,224 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "botDiscord"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-pthread"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "CURL_STATICLIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "EXISTENT_ASIO"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "EXISTENT_CPR"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "EXISTENT_WEBSOCKETPP"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "NONEXISTENT_OPUS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "NONEXISTENT_SODIUM"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "NONEXISTENT_UWEBSOCKETS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "NONEXISTENT_ZLIB_NG"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "SLEEPY_DISCORD_CMAKE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/asio/asio/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/websocketpp"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "cpr::@0bcff499c9643237ef88"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "sleepy-discord::@46311d846c26576373bf"
+		}
+	],
+	"id" : "botDiscord::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "deps/sleepy-discord/sleepy_discord/libsleepy-discord.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "lib/libcpr.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcurl.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lssl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lcrypto",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-pthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "botDiscord",
+	"nameOnDisk" : "botDiscord",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "scrs/includes/BotClass.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "scrs/sources/BotClass.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "scrs/sources/main.cpp",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

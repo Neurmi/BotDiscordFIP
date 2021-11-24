@@ -1,0 +1,14 @@
+# Target labels
+ cpr-download
+# Source files and their labels
+/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/CMakeFiles/cpr-download
+/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/CMakeFiles/cpr-download.rule
+/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/CMakeFiles/cpr-download-complete.rule
+/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-install.rule
+/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-mkdir.rule
+/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-download.rule
+/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-patch.rule
+/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-configure.rule
+/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-build.rule
+/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-test.rule
+/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-skip-update.rule

@@ -1,0 +1,3 @@
+/home/hoernel/Documents/Programme c++/BotDiscord/build/asio-download/CMakeFiles/rebuild_cache.dir
+/home/hoernel/Documents/Programme c++/BotDiscord/build/asio-download/CMakeFiles/edit_cache.dir
+/home/hoernel/Documents/Programme c++/BotDiscord/build/asio-download/CMakeFiles/asio-download.dir
