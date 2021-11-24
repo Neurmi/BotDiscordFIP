@@ -9,9 +9,9 @@ Projet de creation d'un bot discord pour la classe de FIP
 
 ## Execution et mise en place :
 
-## Pour Linux 
+**Pour Linux**
 
-Apres le telechargement du projet 
+Pour la mise en place du projet 
 
 ```
 git clone https://github.com/Neurmi/BotDiscordFIP.git
@@ -19,3 +19,13 @@ cd BotDiscordFIP/build cmake ..
 make 
 ./botDiscord
 ```
+
+**Windows** 
+
+Je sais pas j'ai pas test ... 
+
+**Mac OS**
+
+Tu n'est pas un vrai FIP ;-)
+
+
