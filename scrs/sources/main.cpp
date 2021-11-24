@@ -5,7 +5,7 @@
 
 int main() 
 {
-    std::string Token = "NzEzMDQ0MDQwODk1MDM3NDYw.XsaYAw.-D5YwodijxCPooj8r0-KYUFk1ZI";
+    std::string Token = "ToKen";
 
 	BotClass client(Token, SleepyDiscord::USER_CONTROLED_THREADS);
 	client.run();
