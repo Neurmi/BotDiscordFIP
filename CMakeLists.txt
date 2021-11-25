@@ -2,7 +2,7 @@
 cmake_minimum_required (VERSION 3.6)
 project(example)
 
-add_executable(botDiscord scrs/includes/BotClass.h scrs/sources/BotClass.cpp scrs/sources/main.cpp)
+add_executable(botDiscord src/includes/BotClass.h src/sources/BotClass.cpp src/sources/main.cpp)
 
 #Add these two lines
 add_subdirectory(deps/sleepy-discord)
