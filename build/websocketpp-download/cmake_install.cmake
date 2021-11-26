@@ -1,4 +1,4 @@
-# Install script for directory: /home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download
+# Install script for directory: /home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

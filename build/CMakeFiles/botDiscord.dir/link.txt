@@ -1,1 +1,1 @@
-/usr/bin/x86_64-linux-gnu-g++-9  -g   CMakeFiles/botDiscord.dir/scrs/sources/BotClass.cpp.o CMakeFiles/botDiscord.dir/scrs/sources/main.cpp.o  -o botDiscord  deps/sleepy-discord/sleepy_discord/libsleepy-discord.a lib/libcpr.a /usr/lib/x86_64-linux-gnu/libcurl.so -lssl -lcrypto -pthread 
+/usr/bin/c++     CMakeFiles/botDiscord.dir/src/sources/BotClass.cpp.o CMakeFiles/botDiscord.dir/src/sources/main.cpp.o  -o botDiscord  deps/sleepy-discord/sleepy_discord/libsleepy-discord.a lib/libcpr.a /usr/lib/x86_64-linux-gnu/libcurl.so -lssl -lcrypto -pthread 

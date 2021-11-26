@@ -12534,11 +12534,21 @@ string
 mutex
 -
 
-/home/hoernel/Documents/Programme c++/BotDiscord/scrs/includes/BotClass.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/src/includes/BotClass.h
 sleepy_discord/sleepy_discord.h
-/home/hoernel/Documents/Programme c++/BotDiscord/scrs/includes/sleepy_discord/sleepy_discord.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/src/includes/sleepy_discord/sleepy_discord.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/scrs/sources/BotClass.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/src/sources/BotClass.cpp
 ../includes/BotClass.h
-/home/hoernel/Documents/Programme c++/BotDiscord/scrs/includes/BotClass.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/src/includes/BotClass.h
+
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/src/sources/main.cpp
+sleepy_discord/sleepy_discord.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/src/sources/sleepy_discord/sleepy_discord.h
+../includes/BotClass.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/src/includes/BotClass.h
+iostream
+-
+string
+-
 

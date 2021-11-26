@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hoernel/Documents/Programme c++/BotDiscord/scrs/sources/BotClass.cpp" "/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles/botDiscord.dir/scrs/sources/BotClass.cpp.o"
-  "/home/hoernel/Documents/Programme c++/BotDiscord/scrs/sources/main.cpp" "/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles/botDiscord.dir/scrs/sources/main.cpp.o"
+  "/home/hoernel/Documents/Programme c++/BotDiscordFIP/src/sources/BotClass.cpp" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles/botDiscord.dir/src/sources/BotClass.cpp.o"
+  "/home/hoernel/Documents/Programme c++/BotDiscordFIP/src/sources/main.cpp" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles/botDiscord.dir/src/sources/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -33,8 +33,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/DependInfo.cmake"
-  "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/deps/cpr/cpr/CMakeFiles/cpr.dir/DependInfo.cmake"
+  "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/DependInfo.cmake"
+  "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/deps/cpr/cpr/CMakeFiles/cpr.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

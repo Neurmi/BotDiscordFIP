@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download"
+CMAKE_SOURCE_DIR = "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download"
+CMAKE_BINARY_DIR = "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download"
 
 # Utility rule file for cpr-download.
 
@@ -64,58 +64,58 @@ CMakeFiles/cpr-download-complete: cpr-download-prefix/src/cpr-download-stamp/cpr
 CMakeFiles/cpr-download-complete: cpr-download-prefix/src/cpr-download-stamp/cpr-download-build
 CMakeFiles/cpr-download-complete: cpr-download-prefix/src/cpr-download-stamp/cpr-download-install
 CMakeFiles/cpr-download-complete: cpr-download-prefix/src/cpr-download-stamp/cpr-download-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Completed 'cpr-download'"
-	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/CMakeFiles"
-	/usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/CMakeFiles/cpr-download-complete"
-	/usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-done"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Completed 'cpr-download'"
+	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/CMakeFiles"
+	/usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/CMakeFiles/cpr-download-complete"
+	/usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-done"
 
 cpr-download-prefix/src/cpr-download-stamp/cpr-download-install: cpr-download-prefix/src/cpr-download-stamp/cpr-download-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'cpr-download'"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-build" && /usr/bin/cmake -E echo_append
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-build" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-install"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'cpr-download'"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-build" && /usr/bin/cmake -E echo_append
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-build" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-install"
 
 cpr-download-prefix/src/cpr-download-stamp/cpr-download-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'cpr-download'"
-	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr"
-	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-build"
-	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix"
-	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/tmp"
-	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp"
-	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src"
-	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp"
-	/usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-mkdir"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'cpr-download'"
+	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr"
+	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-build"
+	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/cpr-download-prefix"
+	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/cpr-download-prefix/tmp"
+	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp"
+	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/cpr-download-prefix/src"
+	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp"
+	/usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-mkdir"
 
 cpr-download-prefix/src/cpr-download-stamp/cpr-download-download: cpr-download-prefix/src/cpr-download-stamp/cpr-download-gitinfo.txt
 cpr-download-prefix/src/cpr-download-stamp/cpr-download-download: cpr-download-prefix/src/cpr-download-stamp/cpr-download-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'cpr-download'"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps" && /usr/bin/cmake -P "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/tmp/cpr-download-gitclone.cmake"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-download"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'cpr-download'"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps" && /usr/bin/cmake -P "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/cpr-download-prefix/tmp/cpr-download-gitclone.cmake"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-download"
 
 cpr-download-prefix/src/cpr-download-stamp/cpr-download-patch: cpr-download-prefix/src/cpr-download-stamp/cpr-download-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "No patch step for 'cpr-download'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "No patch step for 'cpr-download'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-patch"
+	/usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-patch"
 
 cpr-download-prefix/src/cpr-download-stamp/cpr-download-configure: cpr-download-prefix/tmp/cpr-download-cfgcmd.txt
 cpr-download-prefix/src/cpr-download-stamp/cpr-download-configure: cpr-download-prefix/src/cpr-download-stamp/cpr-download-skip-update
 cpr-download-prefix/src/cpr-download-stamp/cpr-download-configure: cpr-download-prefix/src/cpr-download-stamp/cpr-download-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "No configure step for 'cpr-download'"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-build" && /usr/bin/cmake -E echo_append
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-build" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-configure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "No configure step for 'cpr-download'"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-build" && /usr/bin/cmake -E echo_append
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-build" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-configure"
 
 cpr-download-prefix/src/cpr-download-stamp/cpr-download-build: cpr-download-prefix/src/cpr-download-stamp/cpr-download-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "No build step for 'cpr-download'"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-build" && /usr/bin/cmake -E echo_append
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-build" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "No build step for 'cpr-download'"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-build" && /usr/bin/cmake -E echo_append
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-build" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-build"
 
 cpr-download-prefix/src/cpr-download-stamp/cpr-download-test: cpr-download-prefix/src/cpr-download-stamp/cpr-download-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'cpr-download'"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-build" && /usr/bin/cmake -E echo_append
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-build" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'cpr-download'"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-build" && /usr/bin/cmake -E echo_append
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-build" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/cpr-download-prefix/src/cpr-download-stamp/cpr-download-test"
 
 cpr-download-prefix/src/cpr-download-stamp/cpr-download-skip-update: cpr-download-prefix/src/cpr-download-stamp/cpr-download-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Skipping update step for 'cpr-download'"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr" && /usr/bin/cmake -E echo_append
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Skipping update step for 'cpr-download'"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr" && /usr/bin/cmake -E echo_append
 
 cpr-download: CMakeFiles/cpr-download
 cpr-download: CMakeFiles/cpr-download-complete
@@ -141,6 +141,6 @@ CMakeFiles/cpr-download.dir/clean:
 .PHONY : CMakeFiles/cpr-download.dir/clean
 
 CMakeFiles/cpr-download.dir/depend:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download" "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download" "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download" "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download" "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-download/CMakeFiles/cpr-download.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-download/CMakeFiles/cpr-download.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/cpr-download.dir/depend
 

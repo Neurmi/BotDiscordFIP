@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/hoernel/Documents/Programme c++/BotDiscord"
+CMAKE_SOURCE_DIR = "/home/hoernel/Documents/Programme c++/BotDiscordFIP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/hoernel/Documents/Programme c++/BotDiscord/build"
+CMAKE_BINARY_DIR = "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build"
 
 # Include any dependencies generated for this target.
 include deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/depend.make
@@ -59,302 +59,302 @@ include deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.m
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.o: ../deps/sleepy-discord/sleepy_discord/asio_udp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/asio_udp.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/asio_udp.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/asio_udp.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/asio_udp.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/asio_udp.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/asio_udp.cpp" > CMakeFiles/sleepy-discord.dir/asio_udp.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/asio_udp.cpp" > CMakeFiles/sleepy-discord.dir/asio_udp.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/asio_udp.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/asio_udp.cpp" -o CMakeFiles/sleepy-discord.dir/asio_udp.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/asio_udp.cpp" -o CMakeFiles/sleepy-discord.dir/asio_udp.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.o: ../deps/sleepy-discord/sleepy_discord/attachment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/attachment.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/attachment.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/attachment.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/attachment.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/attachment.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/attachment.cpp" > CMakeFiles/sleepy-discord.dir/attachment.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/attachment.cpp" > CMakeFiles/sleepy-discord.dir/attachment.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/attachment.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/attachment.cpp" -o CMakeFiles/sleepy-discord.dir/attachment.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/attachment.cpp" -o CMakeFiles/sleepy-discord.dir/attachment.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.o: ../deps/sleepy-discord/sleepy_discord/channel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/channel.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/channel.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/channel.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/channel.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/channel.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/channel.cpp" > CMakeFiles/sleepy-discord.dir/channel.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/channel.cpp" > CMakeFiles/sleepy-discord.dir/channel.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/channel.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/channel.cpp" -o CMakeFiles/sleepy-discord.dir/channel.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/channel.cpp" -o CMakeFiles/sleepy-discord.dir/channel.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.o: ../deps/sleepy-discord/sleepy_discord/client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/client.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/client.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/client.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/client.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/client.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/client.cpp" > CMakeFiles/sleepy-discord.dir/client.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/client.cpp" > CMakeFiles/sleepy-discord.dir/client.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/client.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/client.cpp" -o CMakeFiles/sleepy-discord.dir/client.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/client.cpp" -o CMakeFiles/sleepy-discord.dir/client.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.o: ../deps/sleepy-discord/sleepy_discord/cpr_session.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/cpr_session.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/cpr_session.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/cpr_session.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/cpr_session.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/cpr_session.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/cpr_session.cpp" > CMakeFiles/sleepy-discord.dir/cpr_session.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/cpr_session.cpp" > CMakeFiles/sleepy-discord.dir/cpr_session.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/cpr_session.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/cpr_session.cpp" -o CMakeFiles/sleepy-discord.dir/cpr_session.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/cpr_session.cpp" -o CMakeFiles/sleepy-discord.dir/cpr_session.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.o: ../deps/sleepy-discord/sleepy_discord/default_functions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/default_functions.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/default_functions.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/default_functions.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/default_functions.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/default_functions.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/default_functions.cpp" > CMakeFiles/sleepy-discord.dir/default_functions.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/default_functions.cpp" > CMakeFiles/sleepy-discord.dir/default_functions.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/default_functions.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/default_functions.cpp" -o CMakeFiles/sleepy-discord.dir/default_functions.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/default_functions.cpp" -o CMakeFiles/sleepy-discord.dir/default_functions.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/embed.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/embed.cpp.o: ../deps/sleepy-discord/sleepy_discord/embed.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/embed.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/embed.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/embed.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/embed.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/embed.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/embed.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/embed.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/embed.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/embed.cpp" > CMakeFiles/sleepy-discord.dir/embed.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/embed.cpp" > CMakeFiles/sleepy-discord.dir/embed.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/embed.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/embed.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/embed.cpp" -o CMakeFiles/sleepy-discord.dir/embed.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/embed.cpp" -o CMakeFiles/sleepy-discord.dir/embed.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/endpoints.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/endpoints.cpp.o: ../deps/sleepy-discord/sleepy_discord/endpoints.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/endpoints.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/endpoints.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/endpoints.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/endpoints.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/endpoints.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/endpoints.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/endpoints.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/endpoints.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/endpoints.cpp" > CMakeFiles/sleepy-discord.dir/endpoints.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/endpoints.cpp" > CMakeFiles/sleepy-discord.dir/endpoints.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/endpoints.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/endpoints.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/endpoints.cpp" -o CMakeFiles/sleepy-discord.dir/endpoints.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/endpoints.cpp" -o CMakeFiles/sleepy-discord.dir/endpoints.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/gateway.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/gateway.cpp.o: ../deps/sleepy-discord/sleepy_discord/gateway.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/gateway.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/gateway.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/gateway.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/gateway.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/gateway.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/gateway.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/gateway.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/gateway.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/gateway.cpp" > CMakeFiles/sleepy-discord.dir/gateway.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/gateway.cpp" > CMakeFiles/sleepy-discord.dir/gateway.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/gateway.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/gateway.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/gateway.cpp" -o CMakeFiles/sleepy-discord.dir/gateway.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/gateway.cpp" -o CMakeFiles/sleepy-discord.dir/gateway.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/http.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/http.cpp.o: ../deps/sleepy-discord/sleepy_discord/http.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/http.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/http.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/http.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/http.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/http.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/http.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/http.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/http.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/http.cpp" > CMakeFiles/sleepy-discord.dir/http.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/http.cpp" > CMakeFiles/sleepy-discord.dir/http.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/http.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/http.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/http.cpp" -o CMakeFiles/sleepy-discord.dir/http.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/http.cpp" -o CMakeFiles/sleepy-discord.dir/http.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/invite.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/invite.cpp.o: ../deps/sleepy-discord/sleepy_discord/invite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/invite.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/invite.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/invite.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/invite.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/invite.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/invite.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/invite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/invite.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/invite.cpp" > CMakeFiles/sleepy-discord.dir/invite.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/invite.cpp" > CMakeFiles/sleepy-discord.dir/invite.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/invite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/invite.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/invite.cpp" -o CMakeFiles/sleepy-discord.dir/invite.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/invite.cpp" -o CMakeFiles/sleepy-discord.dir/invite.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.o: ../deps/sleepy-discord/sleepy_discord/json_wrapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/json_wrapper.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/json_wrapper.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/json_wrapper.cpp" > CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/json_wrapper.cpp" > CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/json_wrapper.cpp" -o CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/json_wrapper.cpp" -o CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.o: ../deps/sleepy-discord/sleepy_discord/message.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/message.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/message.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/message.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/message.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/message.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/message.cpp" > CMakeFiles/sleepy-discord.dir/message.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/message.cpp" > CMakeFiles/sleepy-discord.dir/message.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/message.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/message.cpp" -o CMakeFiles/sleepy-discord.dir/message.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/message.cpp" -o CMakeFiles/sleepy-discord.dir/message.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.o: ../deps/sleepy-discord/sleepy_discord/permissions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/permissions.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/permissions.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/permissions.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/permissions.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/permissions.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/permissions.cpp" > CMakeFiles/sleepy-discord.dir/permissions.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/permissions.cpp" > CMakeFiles/sleepy-discord.dir/permissions.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/permissions.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/permissions.cpp" -o CMakeFiles/sleepy-discord.dir/permissions.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/permissions.cpp" -o CMakeFiles/sleepy-discord.dir/permissions.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.o: ../deps/sleepy-discord/sleepy_discord/sd_error.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/sd_error.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/sd_error.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/sd_error.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/sd_error.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/sd_error.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/sd_error.cpp" > CMakeFiles/sleepy-discord.dir/sd_error.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/sd_error.cpp" > CMakeFiles/sleepy-discord.dir/sd_error.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/sd_error.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/sd_error.cpp" -o CMakeFiles/sleepy-discord.dir/sd_error.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/sd_error.cpp" -o CMakeFiles/sleepy-discord.dir/sd_error.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.o: ../deps/sleepy-discord/sleepy_discord/server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/server.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/server.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/server.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/server.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/server.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/server.cpp" > CMakeFiles/sleepy-discord.dir/server.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/server.cpp" > CMakeFiles/sleepy-discord.dir/server.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/server.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/server.cpp" -o CMakeFiles/sleepy-discord.dir/server.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/server.cpp" -o CMakeFiles/sleepy-discord.dir/server.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.o: ../deps/sleepy-discord/sleepy_discord/user.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/user.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/user.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/user.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/user.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/user.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/user.cpp" > CMakeFiles/sleepy-discord.dir/user.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/user.cpp" > CMakeFiles/sleepy-discord.dir/user.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/user.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/user.cpp" -o CMakeFiles/sleepy-discord.dir/user.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/user.cpp" -o CMakeFiles/sleepy-discord.dir/user.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.o: ../deps/sleepy-discord/sleepy_discord/uwebsockets_websocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/uwebsockets_websocket.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/uwebsockets_websocket.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/uwebsockets_websocket.cpp" > CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/uwebsockets_websocket.cpp" > CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/uwebsockets_websocket.cpp" -o CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/uwebsockets_websocket.cpp" -o CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.o: ../deps/sleepy-discord/sleepy_discord/voice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/voice.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/voice.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/voice.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/voice.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/voice.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/voice.cpp" > CMakeFiles/sleepy-discord.dir/voice.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/voice.cpp" > CMakeFiles/sleepy-discord.dir/voice.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/voice.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/voice.cpp" -o CMakeFiles/sleepy-discord.dir/voice.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/voice.cpp" -o CMakeFiles/sleepy-discord.dir/voice.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.o: ../deps/sleepy-discord/sleepy_discord/voice_connection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/voice_connection.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/voice_connection.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/voice_connection.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/voice_connection.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/voice_connection.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/voice_connection.cpp" > CMakeFiles/sleepy-discord.dir/voice_connection.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/voice_connection.cpp" > CMakeFiles/sleepy-discord.dir/voice_connection.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/voice_connection.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/voice_connection.cpp" -o CMakeFiles/sleepy-discord.dir/voice_connection.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/voice_connection.cpp" -o CMakeFiles/sleepy-discord.dir/voice_connection.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/webhook.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/webhook.cpp.o: ../deps/sleepy-discord/sleepy_discord/webhook.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/webhook.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/webhook.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/webhook.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/webhook.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/webhook.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/webhook.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/webhook.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/webhook.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/webhook.cpp" > CMakeFiles/sleepy-discord.dir/webhook.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/webhook.cpp" > CMakeFiles/sleepy-discord.dir/webhook.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/webhook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/webhook.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/webhook.cpp" -o CMakeFiles/sleepy-discord.dir/webhook.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/webhook.cpp" -o CMakeFiles/sleepy-discord.dir/webhook.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.o: ../deps/sleepy-discord/sleepy_discord/websocketpp_websocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/websocketpp_websocket.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/websocketpp_websocket.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/websocketpp_websocket.cpp" > CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/websocketpp_websocket.cpp" > CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/websocketpp_websocket.cpp" -o CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/websocketpp_websocket.cpp" -o CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.s
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.o: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/flags.make
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.o: ../deps/sleepy-discord/sleepy_discord/zlib-ng_compression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.o"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/zlib-ng_compression.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.o"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/zlib-ng_compression.cpp"
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.i"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/zlib-ng_compression.cpp" > CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/zlib-ng_compression.cpp" > CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.i
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.s"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/zlib-ng_compression.cpp" -o CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/zlib-ng_compression.cpp" -o CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.s
 
 # Object files for target sleepy-discord
 sleepy__discord_OBJECTS = \
@@ -410,9 +410,9 @@ deps/sleepy-discord/sleepy_discord/libsleepy-discord.a: deps/sleepy-discord/slee
 deps/sleepy-discord/sleepy_discord/libsleepy-discord.a: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.o
 deps/sleepy-discord/sleepy_discord/libsleepy-discord.a: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make
 deps/sleepy-discord/sleepy_discord/libsleepy-discord.a: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX static library libsleepy-discord.a"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && $(CMAKE_COMMAND) -P CMakeFiles/sleepy-discord.dir/cmake_clean_target.cmake
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sleepy-discord.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX static library libsleepy-discord.a"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && $(CMAKE_COMMAND) -P CMakeFiles/sleepy-discord.dir/cmake_clean_target.cmake
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sleepy-discord.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build: deps/sleepy-discord/sleepy_discord/libsleepy-discord.a
@@ -420,10 +420,10 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build: deps/sle
 .PHONY : deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/clean:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" && $(CMAKE_COMMAND) -P CMakeFiles/sleepy-discord.dir/cmake_clean.cmake
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" && $(CMAKE_COMMAND) -P CMakeFiles/sleepy-discord.dir/cmake_clean.cmake
 .PHONY : deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/clean
 
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/depend:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/hoernel/Documents/Programme c++/BotDiscord" "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord" "/home/hoernel/Documents/Programme c++/BotDiscord/build" "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord" "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/hoernel/Documents/Programme c++/BotDiscordFIP" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/depend
 

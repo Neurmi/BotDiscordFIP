@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/hoernel/Documents/Programme c++/BotDiscord"
+CMAKE_SOURCE_DIR = "/home/hoernel/Documents/Programme c++/BotDiscordFIP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/hoernel/Documents/Programme c++/BotDiscord/build"
+CMAKE_BINARY_DIR = "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/botDiscord.dir/depend.make
@@ -57,48 +57,48 @@ include CMakeFiles/botDiscord.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/botDiscord.dir/flags.make
 
-CMakeFiles/botDiscord.dir/scrs/sources/BotClass.cpp.o: CMakeFiles/botDiscord.dir/flags.make
-CMakeFiles/botDiscord.dir/scrs/sources/BotClass.cpp.o: ../scrs/sources/BotClass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/botDiscord.dir/scrs/sources/BotClass.cpp.o"
-	/usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/botDiscord.dir/scrs/sources/BotClass.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/scrs/sources/BotClass.cpp"
+CMakeFiles/botDiscord.dir/src/sources/BotClass.cpp.o: CMakeFiles/botDiscord.dir/flags.make
+CMakeFiles/botDiscord.dir/src/sources/BotClass.cpp.o: ../src/sources/BotClass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/botDiscord.dir/src/sources/BotClass.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/botDiscord.dir/src/sources/BotClass.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/src/sources/BotClass.cpp"
 
-CMakeFiles/botDiscord.dir/scrs/sources/BotClass.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/botDiscord.dir/scrs/sources/BotClass.cpp.i"
-	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/scrs/sources/BotClass.cpp" > CMakeFiles/botDiscord.dir/scrs/sources/BotClass.cpp.i
+CMakeFiles/botDiscord.dir/src/sources/BotClass.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/botDiscord.dir/src/sources/BotClass.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/src/sources/BotClass.cpp" > CMakeFiles/botDiscord.dir/src/sources/BotClass.cpp.i
 
-CMakeFiles/botDiscord.dir/scrs/sources/BotClass.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/botDiscord.dir/scrs/sources/BotClass.cpp.s"
-	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/scrs/sources/BotClass.cpp" -o CMakeFiles/botDiscord.dir/scrs/sources/BotClass.cpp.s
+CMakeFiles/botDiscord.dir/src/sources/BotClass.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/botDiscord.dir/src/sources/BotClass.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/src/sources/BotClass.cpp" -o CMakeFiles/botDiscord.dir/src/sources/BotClass.cpp.s
 
-CMakeFiles/botDiscord.dir/scrs/sources/main.cpp.o: CMakeFiles/botDiscord.dir/flags.make
-CMakeFiles/botDiscord.dir/scrs/sources/main.cpp.o: ../scrs/sources/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/botDiscord.dir/scrs/sources/main.cpp.o"
-	/usr/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/botDiscord.dir/scrs/sources/main.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscord/scrs/sources/main.cpp"
+CMakeFiles/botDiscord.dir/src/sources/main.cpp.o: CMakeFiles/botDiscord.dir/flags.make
+CMakeFiles/botDiscord.dir/src/sources/main.cpp.o: ../src/sources/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/botDiscord.dir/src/sources/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/botDiscord.dir/src/sources/main.cpp.o -c "/home/hoernel/Documents/Programme c++/BotDiscordFIP/src/sources/main.cpp"
 
-CMakeFiles/botDiscord.dir/scrs/sources/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/botDiscord.dir/scrs/sources/main.cpp.i"
-	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscord/scrs/sources/main.cpp" > CMakeFiles/botDiscord.dir/scrs/sources/main.cpp.i
+CMakeFiles/botDiscord.dir/src/sources/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/botDiscord.dir/src/sources/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/hoernel/Documents/Programme c++/BotDiscordFIP/src/sources/main.cpp" > CMakeFiles/botDiscord.dir/src/sources/main.cpp.i
 
-CMakeFiles/botDiscord.dir/scrs/sources/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/botDiscord.dir/scrs/sources/main.cpp.s"
-	/usr/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscord/scrs/sources/main.cpp" -o CMakeFiles/botDiscord.dir/scrs/sources/main.cpp.s
+CMakeFiles/botDiscord.dir/src/sources/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/botDiscord.dir/src/sources/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/hoernel/Documents/Programme c++/BotDiscordFIP/src/sources/main.cpp" -o CMakeFiles/botDiscord.dir/src/sources/main.cpp.s
 
 # Object files for target botDiscord
 botDiscord_OBJECTS = \
-"CMakeFiles/botDiscord.dir/scrs/sources/BotClass.cpp.o" \
-"CMakeFiles/botDiscord.dir/scrs/sources/main.cpp.o"
+"CMakeFiles/botDiscord.dir/src/sources/BotClass.cpp.o" \
+"CMakeFiles/botDiscord.dir/src/sources/main.cpp.o"
 
 # External object files for target botDiscord
 botDiscord_EXTERNAL_OBJECTS =
 
-botDiscord: CMakeFiles/botDiscord.dir/scrs/sources/BotClass.cpp.o
-botDiscord: CMakeFiles/botDiscord.dir/scrs/sources/main.cpp.o
+botDiscord: CMakeFiles/botDiscord.dir/src/sources/BotClass.cpp.o
+botDiscord: CMakeFiles/botDiscord.dir/src/sources/main.cpp.o
 botDiscord: CMakeFiles/botDiscord.dir/build.make
 botDiscord: deps/sleepy-discord/sleepy_discord/libsleepy-discord.a
 botDiscord: lib/libcpr.a
 botDiscord: /usr/lib/x86_64-linux-gnu/libcurl.so
 botDiscord: CMakeFiles/botDiscord.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable botDiscord"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable botDiscord"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/botDiscord.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -111,6 +111,6 @@ CMakeFiles/botDiscord.dir/clean:
 .PHONY : CMakeFiles/botDiscord.dir/clean
 
 CMakeFiles/botDiscord.dir/depend:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/hoernel/Documents/Programme c++/BotDiscord" "/home/hoernel/Documents/Programme c++/BotDiscord" "/home/hoernel/Documents/Programme c++/BotDiscord/build" "/home/hoernel/Documents/Programme c++/BotDiscord/build" "/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles/botDiscord.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/hoernel/Documents/Programme c++/BotDiscordFIP" "/home/hoernel/Documents/Programme c++/BotDiscordFIP" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles/botDiscord.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/botDiscord.dir/depend
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/hoernel/Documents/Programme c++/BotDiscord"
+CMAKE_SOURCE_DIR = "/home/hoernel/Documents/Programme c++/BotDiscordFIP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/hoernel/Documents/Programme c++/BotDiscord/build"
+CMAKE_BINARY_DIR = "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" "/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -195,59 +195,59 @@ sleepy-discord/fast:
 	$(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build
 .PHONY : sleepy-discord/fast
 
-scrs/sources/BotClass.o: scrs/sources/BotClass.cpp.o
+src/sources/BotClass.o: src/sources/BotClass.cpp.o
 
-.PHONY : scrs/sources/BotClass.o
-
-# target to build an object file
-scrs/sources/BotClass.cpp.o:
-	$(MAKE) -f CMakeFiles/botDiscord.dir/build.make CMakeFiles/botDiscord.dir/scrs/sources/BotClass.cpp.o
-.PHONY : scrs/sources/BotClass.cpp.o
-
-scrs/sources/BotClass.i: scrs/sources/BotClass.cpp.i
-
-.PHONY : scrs/sources/BotClass.i
-
-# target to preprocess a source file
-scrs/sources/BotClass.cpp.i:
-	$(MAKE) -f CMakeFiles/botDiscord.dir/build.make CMakeFiles/botDiscord.dir/scrs/sources/BotClass.cpp.i
-.PHONY : scrs/sources/BotClass.cpp.i
-
-scrs/sources/BotClass.s: scrs/sources/BotClass.cpp.s
-
-.PHONY : scrs/sources/BotClass.s
-
-# target to generate assembly for a file
-scrs/sources/BotClass.cpp.s:
-	$(MAKE) -f CMakeFiles/botDiscord.dir/build.make CMakeFiles/botDiscord.dir/scrs/sources/BotClass.cpp.s
-.PHONY : scrs/sources/BotClass.cpp.s
-
-scrs/sources/main.o: scrs/sources/main.cpp.o
-
-.PHONY : scrs/sources/main.o
+.PHONY : src/sources/BotClass.o
 
 # target to build an object file
-scrs/sources/main.cpp.o:
-	$(MAKE) -f CMakeFiles/botDiscord.dir/build.make CMakeFiles/botDiscord.dir/scrs/sources/main.cpp.o
-.PHONY : scrs/sources/main.cpp.o
+src/sources/BotClass.cpp.o:
+	$(MAKE) -f CMakeFiles/botDiscord.dir/build.make CMakeFiles/botDiscord.dir/src/sources/BotClass.cpp.o
+.PHONY : src/sources/BotClass.cpp.o
 
-scrs/sources/main.i: scrs/sources/main.cpp.i
+src/sources/BotClass.i: src/sources/BotClass.cpp.i
 
-.PHONY : scrs/sources/main.i
+.PHONY : src/sources/BotClass.i
 
 # target to preprocess a source file
-scrs/sources/main.cpp.i:
-	$(MAKE) -f CMakeFiles/botDiscord.dir/build.make CMakeFiles/botDiscord.dir/scrs/sources/main.cpp.i
-.PHONY : scrs/sources/main.cpp.i
+src/sources/BotClass.cpp.i:
+	$(MAKE) -f CMakeFiles/botDiscord.dir/build.make CMakeFiles/botDiscord.dir/src/sources/BotClass.cpp.i
+.PHONY : src/sources/BotClass.cpp.i
 
-scrs/sources/main.s: scrs/sources/main.cpp.s
+src/sources/BotClass.s: src/sources/BotClass.cpp.s
 
-.PHONY : scrs/sources/main.s
+.PHONY : src/sources/BotClass.s
 
 # target to generate assembly for a file
-scrs/sources/main.cpp.s:
-	$(MAKE) -f CMakeFiles/botDiscord.dir/build.make CMakeFiles/botDiscord.dir/scrs/sources/main.cpp.s
-.PHONY : scrs/sources/main.cpp.s
+src/sources/BotClass.cpp.s:
+	$(MAKE) -f CMakeFiles/botDiscord.dir/build.make CMakeFiles/botDiscord.dir/src/sources/BotClass.cpp.s
+.PHONY : src/sources/BotClass.cpp.s
+
+src/sources/main.o: src/sources/main.cpp.o
+
+.PHONY : src/sources/main.o
+
+# target to build an object file
+src/sources/main.cpp.o:
+	$(MAKE) -f CMakeFiles/botDiscord.dir/build.make CMakeFiles/botDiscord.dir/src/sources/main.cpp.o
+.PHONY : src/sources/main.cpp.o
+
+src/sources/main.i: src/sources/main.cpp.i
+
+.PHONY : src/sources/main.i
+
+# target to preprocess a source file
+src/sources/main.cpp.i:
+	$(MAKE) -f CMakeFiles/botDiscord.dir/build.make CMakeFiles/botDiscord.dir/src/sources/main.cpp.i
+.PHONY : src/sources/main.cpp.i
+
+src/sources/main.s: src/sources/main.cpp.s
+
+.PHONY : src/sources/main.s
+
+# target to generate assembly for a file
+src/sources/main.cpp.s:
+	$(MAKE) -f CMakeFiles/botDiscord.dir/build.make CMakeFiles/botDiscord.dir/src/sources/main.cpp.s
+.PHONY : src/sources/main.cpp.s
 
 # Help Target
 help:
@@ -264,12 +264,12 @@ help:
 	@echo "... botDiscord"
 	@echo "... cpr"
 	@echo "... sleepy-discord"
-	@echo "... scrs/sources/BotClass.o"
-	@echo "... scrs/sources/BotClass.i"
-	@echo "... scrs/sources/BotClass.s"
-	@echo "... scrs/sources/main.o"
-	@echo "... scrs/sources/main.i"
-	@echo "... scrs/sources/main.s"
+	@echo "... src/sources/BotClass.o"
+	@echo "... src/sources/BotClass.i"
+	@echo "... src/sources/BotClass.s"
+	@echo "... src/sources/main.o"
+	@echo "... src/sources/main.i"
+	@echo "... src/sources/main.s"
 .PHONY : help
 
 

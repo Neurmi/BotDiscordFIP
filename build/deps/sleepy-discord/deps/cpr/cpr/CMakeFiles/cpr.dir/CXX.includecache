@@ -262,65 +262,65 @@ cpr/curlholder.h
 cstdbool
 -
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/auth.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/auth.cpp
 cpr/auth.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cpr/auth.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cpr/auth.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cookies.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cookies.cpp
 cpr/cookies.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cpr/cookies.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cpr/cookies.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cprtypes.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cprtypes.cpp
 cpr/cprtypes.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cpr/cprtypes.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cpr/cprtypes.h
 algorithm
 -
 cctype
 -
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/curl_container.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/curl_container.cpp
 cpr/curl_container.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cpr/curl_container.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cpr/curl_container.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/curlholder.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/curlholder.cpp
 cpr/curlholder.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cpr/curlholder.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cpr/curlholder.h
 cassert
 -
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/error.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/error.cpp
 cpr/error.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cpr/error.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cpr/error.h
 curl/curl.h
 -
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/multipart.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/multipart.cpp
 cpr/multipart.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cpr/multipart.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cpr/multipart.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/parameters.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/parameters.cpp
 cpr/parameters.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cpr/parameters.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cpr/parameters.h
 initializer_list
 -
 string
 -
 cpr/util.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cpr/util.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cpr/util.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/payload.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/payload.cpp
 cpr/payload.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cpr/payload.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cpr/payload.h
 initializer_list
 -
 string
 -
 cpr/util.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cpr/util.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cpr/util.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/proxies.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/proxies.cpp
 cpr/proxies.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cpr/proxies.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cpr/proxies.h
 initializer_list
 -
 map
@@ -330,9 +330,9 @@ string
 utility
 -
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/session.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/session.cpp
 cpr/session.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cpr/session.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cpr/session.h
 algorithm
 -
 cstdlib
@@ -346,13 +346,13 @@ string
 curl/curl.h
 -
 cpr/curlholder.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cpr/curlholder.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cpr/curlholder.h
 cpr/util.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cpr/util.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cpr/util.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/timeout.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/timeout.cpp
 cpr/timeout.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cpr/timeout.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cpr/timeout.h
 limits
 -
 stdexcept
@@ -362,13 +362,13 @@ string
 type_traits
 -
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/unix_socket.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/unix_socket.cpp
 cpr/unix_socket.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cpr/unix_socket.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cpr/unix_socket.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/util.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/util.cpp
 cpr/util.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr/cpr/cpr/util.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr/cpr/cpr/util.h
 algorithm
 -
 cassert

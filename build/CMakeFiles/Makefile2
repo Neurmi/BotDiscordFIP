@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/hoernel/Documents/Programme c++/BotDiscord"
+CMAKE_SOURCE_DIR = "/home/hoernel/Documents/Programme c++/BotDiscordFIP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/hoernel/Documents/Programme c++/BotDiscord/build"
+CMAKE_BINARY_DIR = "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -212,14 +212,14 @@ CMakeFiles/botDiscord.dir/all: deps/sleepy-discord/deps/cpr/cpr/CMakeFiles/cpr.d
 CMakeFiles/botDiscord.dir/all: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/all
 	$(MAKE) -f CMakeFiles/botDiscord.dir/build.make CMakeFiles/botDiscord.dir/depend
 	$(MAKE) -f CMakeFiles/botDiscord.dir/build.make CMakeFiles/botDiscord.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=1,2,3 "Built target botDiscord"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=1,2,3 "Built target botDiscord"
 .PHONY : CMakeFiles/botDiscord.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/botDiscord.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" 42
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" 42
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/botDiscord.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" 0
 .PHONY : CMakeFiles/botDiscord.dir/rule
 
 # Convenience name for target.
@@ -239,14 +239,14 @@ CMakeFiles/botDiscord.dir/clean:
 deps/sleepy-discord/deps/cpr/cpr/CMakeFiles/cpr.dir/all:
 	$(MAKE) -f deps/sleepy-discord/deps/cpr/cpr/CMakeFiles/cpr.dir/build.make deps/sleepy-discord/deps/cpr/cpr/CMakeFiles/cpr.dir/depend
 	$(MAKE) -f deps/sleepy-discord/deps/cpr/cpr/CMakeFiles/cpr.dir/build.make deps/sleepy-discord/deps/cpr/cpr/CMakeFiles/cpr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target cpr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 "Built target cpr"
 .PHONY : deps/sleepy-discord/deps/cpr/cpr/CMakeFiles/cpr.dir/all
 
 # Build rule for subdir invocation for target.
 deps/sleepy-discord/deps/cpr/cpr/CMakeFiles/cpr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" 15
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" 15
 	$(MAKE) -f CMakeFiles/Makefile2 deps/sleepy-discord/deps/cpr/cpr/CMakeFiles/cpr.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" 0
 .PHONY : deps/sleepy-discord/deps/cpr/cpr/CMakeFiles/cpr.dir/rule
 
 # Convenience name for target.
@@ -266,14 +266,14 @@ deps/sleepy-discord/deps/cpr/cpr/CMakeFiles/cpr.dir/clean:
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/all: deps/sleepy-discord/deps/cpr/cpr/CMakeFiles/cpr.dir/all
 	$(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/depend
 	$(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" --progress-num=19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42 "Built target sleepy-discord"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" --progress-num=19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42 "Built target sleepy-discord"
 .PHONY : deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/all
 
 # Build rule for subdir invocation for target.
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" 39
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" 39
 	$(MAKE) -f CMakeFiles/Makefile2 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" 0
 .PHONY : deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/rule
 
 # Convenience name for target.

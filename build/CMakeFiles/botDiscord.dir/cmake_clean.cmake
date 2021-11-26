@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/botDiscord.dir/scrs/sources/BotClass.cpp.o"
-  "CMakeFiles/botDiscord.dir/scrs/sources/main.cpp.o"
+  "CMakeFiles/botDiscord.dir/src/sources/BotClass.cpp.o"
+  "CMakeFiles/botDiscord.dir/src/sources/main.cpp.o"
   "botDiscord"
   "botDiscord.pdb"
 )

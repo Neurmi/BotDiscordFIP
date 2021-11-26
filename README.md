@@ -9,6 +9,7 @@ L'objectif du bot serai de rendre notre serveur discord FIP plus interactif avec
 - [ ] Informer des mises a jour de l'emploi du temps sur ADE
 - [ ] Mise en place d'un equivalent de rythm
 - [ ] Creation de petit jeux pour les cours relou 
+- [ ] Creation de rappel pour les anniv
 
 ## Execution et mise en place :
 

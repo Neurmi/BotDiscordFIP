@@ -12528,21 +12528,21 @@ string
 mutex
 -
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/asio_udp.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/asio_udp.cpp
 asio_udp.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/asio_udp.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/asio_udp.h
 client.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/client.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/client.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/attachment.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/attachment.cpp
 attachment.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/attachment.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/attachment.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/channel.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/channel.cpp
 channel.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/channel.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/channel.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/client.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/client.cpp
 chrono
 -
 functional
@@ -12556,123 +12556,123 @@ ctime
 cstring
 -
 client.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/client.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/client.h
 version_helper.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/version_helper.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/version_helper.h
 rapidjson/document.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/rapidjson/document.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/rapidjson/document.h
 cstring
 -
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/cpr_session.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/cpr_session.cpp
 cpr_session.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/cpr_session.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/cpr_session.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/default_functions.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/default_functions.cpp
 client.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/client.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/client.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/embed.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/embed.cpp
 embed.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/embed.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/embed.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/endpoints.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/endpoints.cpp
 functional
 -
 client.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/client.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/client.h
 discord_object_interface.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/discord_object_interface.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/discord_object_interface.h
 vector
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/vector
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/vector
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/gateway.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/gateway.cpp
 gateway.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/gateway.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/gateway.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/http.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/http.cpp
 cctype
 -
 array
 -
 http.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/http.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/http.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/invite.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/invite.cpp
 invite.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/invite.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/invite.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/json_wrapper.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/json_wrapper.cpp
 json_wrapper.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/json_wrapper.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/json_wrapper.h
 stdexcept
 -
 string
 -
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/message.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/message.cpp
 message.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/message.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/message.h
 client.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/client.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/client.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/permissions.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/permissions.cpp
 permissions.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/permissions.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/permissions.h
 server.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/server.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/server.h
 channel.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/channel.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/channel.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/sd_error.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/sd_error.cpp
 client.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/client.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/client.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/server.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/server.cpp
 server.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/server.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/server.h
 client.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/client.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/client.h
 permissions.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/permissions.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/permissions.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/user.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/user.cpp
 user.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/user.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/user.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/uwebsockets_websocket.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/uwebsockets_websocket.cpp
 uwebsockets_websocket.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/uwebsockets_websocket.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/uwebsockets_websocket.h
 iostream
 -
 standard_config.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/standard_config.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/standard_config.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/voice.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/voice.cpp
 voice.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/voice.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/voice.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/voice_connection.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/voice_connection.cpp
 voice_connection.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/voice_connection.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/voice_connection.h
 sodium.h
 -
 client.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/client.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/client.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/webhook.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/webhook.cpp
 webhook.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/webhook.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/webhook.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/websocketpp_websocket.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/websocketpp_websocket.cpp
 websocketpp_websocket.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/websocketpp_websocket.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/websocketpp_websocket.h
 future
 -
 standard_config.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/standard_config.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/standard_config.h
 
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/zlib-ng_compression.cpp
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/zlib-ng_compression.cpp
 zlib-ng_compression.h
-/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/zlib-ng_compression.h
+/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/zlib-ng_compression.h
 

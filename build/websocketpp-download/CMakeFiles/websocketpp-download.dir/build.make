@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download"
+CMAKE_SOURCE_DIR = "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download"
+CMAKE_BINARY_DIR = "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download"
 
 # Utility rule file for websocketpp-download.
 
@@ -64,58 +64,58 @@ CMakeFiles/websocketpp-download-complete: websocketpp-download-prefix/src/websoc
 CMakeFiles/websocketpp-download-complete: websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-build
 CMakeFiles/websocketpp-download-complete: websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-install
 CMakeFiles/websocketpp-download-complete: websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Completed 'websocketpp-download'"
-	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/CMakeFiles"
-	/usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/CMakeFiles/websocketpp-download-complete"
-	/usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-done"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Completed 'websocketpp-download'"
+	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/CMakeFiles"
+	/usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/CMakeFiles/websocketpp-download-complete"
+	/usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-done"
 
 websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-install: websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'websocketpp-download'"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-build" && /usr/bin/cmake -E echo_append
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-build" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-install"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'websocketpp-download'"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-build" && /usr/bin/cmake -E echo_append
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-build" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-install"
 
 websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'websocketpp-download'"
-	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/websocketpp"
-	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-build"
-	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/websocketpp-download-prefix"
-	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/websocketpp-download-prefix/tmp"
-	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp"
-	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/websocketpp-download-prefix/src"
-	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp"
-	/usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-mkdir"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'websocketpp-download'"
+	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/websocketpp"
+	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-build"
+	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/websocketpp-download-prefix"
+	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/websocketpp-download-prefix/tmp"
+	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp"
+	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/websocketpp-download-prefix/src"
+	/usr/bin/cmake -E make_directory "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp"
+	/usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-mkdir"
 
 websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-download: websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-gitinfo.txt
 websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-download: websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'websocketpp-download'"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps" && /usr/bin/cmake -P "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/websocketpp-download-prefix/tmp/websocketpp-download-gitclone.cmake"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-download"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (git clone) for 'websocketpp-download'"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps" && /usr/bin/cmake -P "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/websocketpp-download-prefix/tmp/websocketpp-download-gitclone.cmake"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-download"
 
 websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-patch: websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "No patch step for 'websocketpp-download'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "No patch step for 'websocketpp-download'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-patch"
+	/usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-patch"
 
 websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-configure: websocketpp-download-prefix/tmp/websocketpp-download-cfgcmd.txt
 websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-configure: websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-skip-update
 websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-configure: websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "No configure step for 'websocketpp-download'"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-build" && /usr/bin/cmake -E echo_append
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-build" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-configure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "No configure step for 'websocketpp-download'"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-build" && /usr/bin/cmake -E echo_append
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-build" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-configure"
 
 websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-build: websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "No build step for 'websocketpp-download'"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-build" && /usr/bin/cmake -E echo_append
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-build" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "No build step for 'websocketpp-download'"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-build" && /usr/bin/cmake -E echo_append
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-build" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-build"
 
 websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-test: websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'websocketpp-download'"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-build" && /usr/bin/cmake -E echo_append
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-build" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'websocketpp-download'"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-build" && /usr/bin/cmake -E echo_append
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-build" && /usr/bin/cmake -E touch "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-test"
 
 websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-skip-update: websocketpp-download-prefix/src/websocketpp-download-stamp/websocketpp-download-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Skipping update step for 'websocketpp-download'"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/websocketpp" && /usr/bin/cmake -E echo_append
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Skipping update step for 'websocketpp-download'"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/websocketpp" && /usr/bin/cmake -E echo_append
 
 websocketpp-download: CMakeFiles/websocketpp-download
 websocketpp-download: CMakeFiles/websocketpp-download-complete
@@ -141,6 +141,6 @@ CMakeFiles/websocketpp-download.dir/clean:
 .PHONY : CMakeFiles/websocketpp-download.dir/clean
 
 CMakeFiles/websocketpp-download.dir/depend:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download" "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download" "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download" "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download" "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-download/CMakeFiles/websocketpp-download.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-download/CMakeFiles/websocketpp-download.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/websocketpp-download.dir/depend
 

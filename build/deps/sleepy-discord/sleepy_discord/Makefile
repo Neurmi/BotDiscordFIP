@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/hoernel/Documents/Programme c++/BotDiscord"
+CMAKE_SOURCE_DIR = "/home/hoernel/Documents/Programme c++/BotDiscordFIP"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/hoernel/Documents/Programme c++/BotDiscord/build"
+CMAKE_BINARY_DIR = "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/sleepy_discord/CMakeFiles/progress.marks"
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f CMakeFiles/Makefile2 deps/sleepy-discord/sleepy_discord/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscord/build/CMakeFiles" 0
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/sleepy_discord/CMakeFiles/progress.marks"
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f CMakeFiles/Makefile2 deps/sleepy-discord/sleepy_discord/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f CMakeFiles/Makefile2 deps/sleepy-discord/sleepy_discord/clean
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f CMakeFiles/Makefile2 deps/sleepy-discord/sleepy_discord/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f CMakeFiles/Makefile2 deps/sleepy-discord/sleepy_discord/preinstall
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f CMakeFiles/Makefile2 deps/sleepy-discord/sleepy_discord/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f CMakeFiles/Makefile2 deps/sleepy-discord/sleepy_discord/preinstall
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f CMakeFiles/Makefile2 deps/sleepy-discord/sleepy_discord/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/rule:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f CMakeFiles/Makefile2 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/rule
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f CMakeFiles/Makefile2 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/rule
 .PHONY : deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ sleepy-discord: deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir
 
 # fast build rule for target.
 sleepy-discord/fast:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build
 .PHONY : sleepy-discord/fast
 
 asio_udp.o: asio_udp.cpp.o
@@ -177,7 +177,7 @@ asio_udp.o: asio_udp.cpp.o
 
 # target to build an object file
 asio_udp.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.o
 .PHONY : asio_udp.cpp.o
 
 asio_udp.i: asio_udp.cpp.i
@@ -186,7 +186,7 @@ asio_udp.i: asio_udp.cpp.i
 
 # target to preprocess a source file
 asio_udp.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.i
 .PHONY : asio_udp.cpp.i
 
 asio_udp.s: asio_udp.cpp.s
@@ -195,7 +195,7 @@ asio_udp.s: asio_udp.cpp.s
 
 # target to generate assembly for a file
 asio_udp.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.s
 .PHONY : asio_udp.cpp.s
 
 attachment.o: attachment.cpp.o
@@ -204,7 +204,7 @@ attachment.o: attachment.cpp.o
 
 # target to build an object file
 attachment.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.o
 .PHONY : attachment.cpp.o
 
 attachment.i: attachment.cpp.i
@@ -213,7 +213,7 @@ attachment.i: attachment.cpp.i
 
 # target to preprocess a source file
 attachment.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.i
 .PHONY : attachment.cpp.i
 
 attachment.s: attachment.cpp.s
@@ -222,7 +222,7 @@ attachment.s: attachment.cpp.s
 
 # target to generate assembly for a file
 attachment.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.s
 .PHONY : attachment.cpp.s
 
 channel.o: channel.cpp.o
@@ -231,7 +231,7 @@ channel.o: channel.cpp.o
 
 # target to build an object file
 channel.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.o
 .PHONY : channel.cpp.o
 
 channel.i: channel.cpp.i
@@ -240,7 +240,7 @@ channel.i: channel.cpp.i
 
 # target to preprocess a source file
 channel.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.i
 .PHONY : channel.cpp.i
 
 channel.s: channel.cpp.s
@@ -249,7 +249,7 @@ channel.s: channel.cpp.s
 
 # target to generate assembly for a file
 channel.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.s
 .PHONY : channel.cpp.s
 
 client.o: client.cpp.o
@@ -258,7 +258,7 @@ client.o: client.cpp.o
 
 # target to build an object file
 client.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.o
 .PHONY : client.cpp.o
 
 client.i: client.cpp.i
@@ -267,7 +267,7 @@ client.i: client.cpp.i
 
 # target to preprocess a source file
 client.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.i
 .PHONY : client.cpp.i
 
 client.s: client.cpp.s
@@ -276,7 +276,7 @@ client.s: client.cpp.s
 
 # target to generate assembly for a file
 client.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.s
 .PHONY : client.cpp.s
 
 cpr_session.o: cpr_session.cpp.o
@@ -285,7 +285,7 @@ cpr_session.o: cpr_session.cpp.o
 
 # target to build an object file
 cpr_session.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.o
 .PHONY : cpr_session.cpp.o
 
 cpr_session.i: cpr_session.cpp.i
@@ -294,7 +294,7 @@ cpr_session.i: cpr_session.cpp.i
 
 # target to preprocess a source file
 cpr_session.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.i
 .PHONY : cpr_session.cpp.i
 
 cpr_session.s: cpr_session.cpp.s
@@ -303,7 +303,7 @@ cpr_session.s: cpr_session.cpp.s
 
 # target to generate assembly for a file
 cpr_session.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.s
 .PHONY : cpr_session.cpp.s
 
 default_functions.o: default_functions.cpp.o
@@ -312,7 +312,7 @@ default_functions.o: default_functions.cpp.o
 
 # target to build an object file
 default_functions.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.o
 .PHONY : default_functions.cpp.o
 
 default_functions.i: default_functions.cpp.i
@@ -321,7 +321,7 @@ default_functions.i: default_functions.cpp.i
 
 # target to preprocess a source file
 default_functions.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.i
 .PHONY : default_functions.cpp.i
 
 default_functions.s: default_functions.cpp.s
@@ -330,7 +330,7 @@ default_functions.s: default_functions.cpp.s
 
 # target to generate assembly for a file
 default_functions.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.s
 .PHONY : default_functions.cpp.s
 
 embed.o: embed.cpp.o
@@ -339,7 +339,7 @@ embed.o: embed.cpp.o
 
 # target to build an object file
 embed.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/embed.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/embed.cpp.o
 .PHONY : embed.cpp.o
 
 embed.i: embed.cpp.i
@@ -348,7 +348,7 @@ embed.i: embed.cpp.i
 
 # target to preprocess a source file
 embed.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/embed.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/embed.cpp.i
 .PHONY : embed.cpp.i
 
 embed.s: embed.cpp.s
@@ -357,7 +357,7 @@ embed.s: embed.cpp.s
 
 # target to generate assembly for a file
 embed.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/embed.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/embed.cpp.s
 .PHONY : embed.cpp.s
 
 endpoints.o: endpoints.cpp.o
@@ -366,7 +366,7 @@ endpoints.o: endpoints.cpp.o
 
 # target to build an object file
 endpoints.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/endpoints.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/endpoints.cpp.o
 .PHONY : endpoints.cpp.o
 
 endpoints.i: endpoints.cpp.i
@@ -375,7 +375,7 @@ endpoints.i: endpoints.cpp.i
 
 # target to preprocess a source file
 endpoints.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/endpoints.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/endpoints.cpp.i
 .PHONY : endpoints.cpp.i
 
 endpoints.s: endpoints.cpp.s
@@ -384,7 +384,7 @@ endpoints.s: endpoints.cpp.s
 
 # target to generate assembly for a file
 endpoints.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/endpoints.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/endpoints.cpp.s
 .PHONY : endpoints.cpp.s
 
 gateway.o: gateway.cpp.o
@@ -393,7 +393,7 @@ gateway.o: gateway.cpp.o
 
 # target to build an object file
 gateway.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/gateway.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/gateway.cpp.o
 .PHONY : gateway.cpp.o
 
 gateway.i: gateway.cpp.i
@@ -402,7 +402,7 @@ gateway.i: gateway.cpp.i
 
 # target to preprocess a source file
 gateway.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/gateway.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/gateway.cpp.i
 .PHONY : gateway.cpp.i
 
 gateway.s: gateway.cpp.s
@@ -411,7 +411,7 @@ gateway.s: gateway.cpp.s
 
 # target to generate assembly for a file
 gateway.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/gateway.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/gateway.cpp.s
 .PHONY : gateway.cpp.s
 
 http.o: http.cpp.o
@@ -420,7 +420,7 @@ http.o: http.cpp.o
 
 # target to build an object file
 http.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/http.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/http.cpp.o
 .PHONY : http.cpp.o
 
 http.i: http.cpp.i
@@ -429,7 +429,7 @@ http.i: http.cpp.i
 
 # target to preprocess a source file
 http.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/http.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/http.cpp.i
 .PHONY : http.cpp.i
 
 http.s: http.cpp.s
@@ -438,7 +438,7 @@ http.s: http.cpp.s
 
 # target to generate assembly for a file
 http.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/http.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/http.cpp.s
 .PHONY : http.cpp.s
 
 invite.o: invite.cpp.o
@@ -447,7 +447,7 @@ invite.o: invite.cpp.o
 
 # target to build an object file
 invite.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/invite.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/invite.cpp.o
 .PHONY : invite.cpp.o
 
 invite.i: invite.cpp.i
@@ -456,7 +456,7 @@ invite.i: invite.cpp.i
 
 # target to preprocess a source file
 invite.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/invite.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/invite.cpp.i
 .PHONY : invite.cpp.i
 
 invite.s: invite.cpp.s
@@ -465,7 +465,7 @@ invite.s: invite.cpp.s
 
 # target to generate assembly for a file
 invite.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/invite.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/invite.cpp.s
 .PHONY : invite.cpp.s
 
 json_wrapper.o: json_wrapper.cpp.o
@@ -474,7 +474,7 @@ json_wrapper.o: json_wrapper.cpp.o
 
 # target to build an object file
 json_wrapper.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.o
 .PHONY : json_wrapper.cpp.o
 
 json_wrapper.i: json_wrapper.cpp.i
@@ -483,7 +483,7 @@ json_wrapper.i: json_wrapper.cpp.i
 
 # target to preprocess a source file
 json_wrapper.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.i
 .PHONY : json_wrapper.cpp.i
 
 json_wrapper.s: json_wrapper.cpp.s
@@ -492,7 +492,7 @@ json_wrapper.s: json_wrapper.cpp.s
 
 # target to generate assembly for a file
 json_wrapper.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.s
 .PHONY : json_wrapper.cpp.s
 
 message.o: message.cpp.o
@@ -501,7 +501,7 @@ message.o: message.cpp.o
 
 # target to build an object file
 message.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.o
 .PHONY : message.cpp.o
 
 message.i: message.cpp.i
@@ -510,7 +510,7 @@ message.i: message.cpp.i
 
 # target to preprocess a source file
 message.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.i
 .PHONY : message.cpp.i
 
 message.s: message.cpp.s
@@ -519,7 +519,7 @@ message.s: message.cpp.s
 
 # target to generate assembly for a file
 message.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.s
 .PHONY : message.cpp.s
 
 permissions.o: permissions.cpp.o
@@ -528,7 +528,7 @@ permissions.o: permissions.cpp.o
 
 # target to build an object file
 permissions.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.o
 .PHONY : permissions.cpp.o
 
 permissions.i: permissions.cpp.i
@@ -537,7 +537,7 @@ permissions.i: permissions.cpp.i
 
 # target to preprocess a source file
 permissions.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.i
 .PHONY : permissions.cpp.i
 
 permissions.s: permissions.cpp.s
@@ -546,7 +546,7 @@ permissions.s: permissions.cpp.s
 
 # target to generate assembly for a file
 permissions.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.s
 .PHONY : permissions.cpp.s
 
 sd_error.o: sd_error.cpp.o
@@ -555,7 +555,7 @@ sd_error.o: sd_error.cpp.o
 
 # target to build an object file
 sd_error.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.o
 .PHONY : sd_error.cpp.o
 
 sd_error.i: sd_error.cpp.i
@@ -564,7 +564,7 @@ sd_error.i: sd_error.cpp.i
 
 # target to preprocess a source file
 sd_error.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.i
 .PHONY : sd_error.cpp.i
 
 sd_error.s: sd_error.cpp.s
@@ -573,7 +573,7 @@ sd_error.s: sd_error.cpp.s
 
 # target to generate assembly for a file
 sd_error.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.s
 .PHONY : sd_error.cpp.s
 
 server.o: server.cpp.o
@@ -582,7 +582,7 @@ server.o: server.cpp.o
 
 # target to build an object file
 server.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.o
 .PHONY : server.cpp.o
 
 server.i: server.cpp.i
@@ -591,7 +591,7 @@ server.i: server.cpp.i
 
 # target to preprocess a source file
 server.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.i
 .PHONY : server.cpp.i
 
 server.s: server.cpp.s
@@ -600,7 +600,7 @@ server.s: server.cpp.s
 
 # target to generate assembly for a file
 server.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.s
 .PHONY : server.cpp.s
 
 user.o: user.cpp.o
@@ -609,7 +609,7 @@ user.o: user.cpp.o
 
 # target to build an object file
 user.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.o
 .PHONY : user.cpp.o
 
 user.i: user.cpp.i
@@ -618,7 +618,7 @@ user.i: user.cpp.i
 
 # target to preprocess a source file
 user.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.i
 .PHONY : user.cpp.i
 
 user.s: user.cpp.s
@@ -627,7 +627,7 @@ user.s: user.cpp.s
 
 # target to generate assembly for a file
 user.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.s
 .PHONY : user.cpp.s
 
 uwebsockets_websocket.o: uwebsockets_websocket.cpp.o
@@ -636,7 +636,7 @@ uwebsockets_websocket.o: uwebsockets_websocket.cpp.o
 
 # target to build an object file
 uwebsockets_websocket.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.o
 .PHONY : uwebsockets_websocket.cpp.o
 
 uwebsockets_websocket.i: uwebsockets_websocket.cpp.i
@@ -645,7 +645,7 @@ uwebsockets_websocket.i: uwebsockets_websocket.cpp.i
 
 # target to preprocess a source file
 uwebsockets_websocket.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.i
 .PHONY : uwebsockets_websocket.cpp.i
 
 uwebsockets_websocket.s: uwebsockets_websocket.cpp.s
@@ -654,7 +654,7 @@ uwebsockets_websocket.s: uwebsockets_websocket.cpp.s
 
 # target to generate assembly for a file
 uwebsockets_websocket.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.s
 .PHONY : uwebsockets_websocket.cpp.s
 
 voice.o: voice.cpp.o
@@ -663,7 +663,7 @@ voice.o: voice.cpp.o
 
 # target to build an object file
 voice.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.o
 .PHONY : voice.cpp.o
 
 voice.i: voice.cpp.i
@@ -672,7 +672,7 @@ voice.i: voice.cpp.i
 
 # target to preprocess a source file
 voice.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.i
 .PHONY : voice.cpp.i
 
 voice.s: voice.cpp.s
@@ -681,7 +681,7 @@ voice.s: voice.cpp.s
 
 # target to generate assembly for a file
 voice.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.s
 .PHONY : voice.cpp.s
 
 voice_connection.o: voice_connection.cpp.o
@@ -690,7 +690,7 @@ voice_connection.o: voice_connection.cpp.o
 
 # target to build an object file
 voice_connection.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.o
 .PHONY : voice_connection.cpp.o
 
 voice_connection.i: voice_connection.cpp.i
@@ -699,7 +699,7 @@ voice_connection.i: voice_connection.cpp.i
 
 # target to preprocess a source file
 voice_connection.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.i
 .PHONY : voice_connection.cpp.i
 
 voice_connection.s: voice_connection.cpp.s
@@ -708,7 +708,7 @@ voice_connection.s: voice_connection.cpp.s
 
 # target to generate assembly for a file
 voice_connection.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.s
 .PHONY : voice_connection.cpp.s
 
 webhook.o: webhook.cpp.o
@@ -717,7 +717,7 @@ webhook.o: webhook.cpp.o
 
 # target to build an object file
 webhook.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/webhook.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/webhook.cpp.o
 .PHONY : webhook.cpp.o
 
 webhook.i: webhook.cpp.i
@@ -726,7 +726,7 @@ webhook.i: webhook.cpp.i
 
 # target to preprocess a source file
 webhook.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/webhook.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/webhook.cpp.i
 .PHONY : webhook.cpp.i
 
 webhook.s: webhook.cpp.s
@@ -735,7 +735,7 @@ webhook.s: webhook.cpp.s
 
 # target to generate assembly for a file
 webhook.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/webhook.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/webhook.cpp.s
 .PHONY : webhook.cpp.s
 
 websocketpp_websocket.o: websocketpp_websocket.cpp.o
@@ -744,7 +744,7 @@ websocketpp_websocket.o: websocketpp_websocket.cpp.o
 
 # target to build an object file
 websocketpp_websocket.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.o
 .PHONY : websocketpp_websocket.cpp.o
 
 websocketpp_websocket.i: websocketpp_websocket.cpp.i
@@ -753,7 +753,7 @@ websocketpp_websocket.i: websocketpp_websocket.cpp.i
 
 # target to preprocess a source file
 websocketpp_websocket.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.i
 .PHONY : websocketpp_websocket.cpp.i
 
 websocketpp_websocket.s: websocketpp_websocket.cpp.s
@@ -762,7 +762,7 @@ websocketpp_websocket.s: websocketpp_websocket.cpp.s
 
 # target to generate assembly for a file
 websocketpp_websocket.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.s
 .PHONY : websocketpp_websocket.cpp.s
 
 zlib-ng_compression.o: zlib-ng_compression.cpp.o
@@ -771,7 +771,7 @@ zlib-ng_compression.o: zlib-ng_compression.cpp.o
 
 # target to build an object file
 zlib-ng_compression.cpp.o:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.o
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.o
 .PHONY : zlib-ng_compression.cpp.o
 
 zlib-ng_compression.i: zlib-ng_compression.cpp.i
@@ -780,7 +780,7 @@ zlib-ng_compression.i: zlib-ng_compression.cpp.i
 
 # target to preprocess a source file
 zlib-ng_compression.cpp.i:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.i
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.i
 .PHONY : zlib-ng_compression.cpp.i
 
 zlib-ng_compression.s: zlib-ng_compression.cpp.s
@@ -789,7 +789,7 @@ zlib-ng_compression.s: zlib-ng_compression.cpp.s
 
 # target to generate assembly for a file
 zlib-ng_compression.cpp.s:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.s
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(MAKE) -f deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/build.make deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.s
 .PHONY : zlib-ng_compression.cpp.s
 
 # Help Target
@@ -885,6 +885,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/hoernel/Documents/Programme c++/BotDiscord/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

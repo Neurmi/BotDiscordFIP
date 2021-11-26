@@ -1,6 +1,6 @@
 #CMakeLists.txt
 cmake_minimum_required (VERSION 3.6)
-project(example)
+project(botDiscord)
 
 add_executable(botDiscord src/includes/BotClass.h src/sources/BotClass.cpp src/sources/main.cpp)
 

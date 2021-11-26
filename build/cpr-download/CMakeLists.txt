@@ -8,8 +8,8 @@ project(cpr-download NONE)
 include(ExternalProject)
 ExternalProject_Add(cpr-download
                     GIT_REPOSITORY;https://github.com/whoshuu/cpr.git;GIT_TAG;e627e47;UPDATE_DISCONNECTED;1
-                    SOURCE_DIR          "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/cpr"
-                    BINARY_DIR          "/home/hoernel/Documents/Programme c++/BotDiscord/build/cpr-build"
+                    SOURCE_DIR          "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/cpr"
+                    BINARY_DIR          "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/cpr-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

@@ -8,8 +8,8 @@ project(websocketpp-download NONE)
 include(ExternalProject)
 ExternalProject_Add(websocketpp-download
                     GIT_REPOSITORY;https://github.com/zaphoyd/websocketpp.git;GIT_TAG;master;UPDATE_DISCONNECTED;1
-                    SOURCE_DIR          "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/websocketpp"
-                    BINARY_DIR          "/home/hoernel/Documents/Programme c++/BotDiscord/build/websocketpp-build"
+                    SOURCE_DIR          "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/websocketpp"
+                    BINARY_DIR          "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/websocketpp-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

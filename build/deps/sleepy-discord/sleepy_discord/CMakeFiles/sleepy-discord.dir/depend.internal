@@ -737,7 +737,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/asio_udp.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_common.h
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_connection.h
  ../deps/sleepy-discord/include/sleepy_discord/zlib-ng_compression.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/asio_udp.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/asio_udp.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/attachment.h
  ../deps/sleepy-discord/include/sleepy_discord/discord_object_interface.h
@@ -770,7 +770,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/attachment.cpp.
  ../deps/sleepy-discord/include/sleepy_discord/rapidjson/stringbuffer.h
  ../deps/sleepy-discord/include/sleepy_discord/rapidjson/writer.h
  ../deps/sleepy-discord/include/sleepy_discord/snowflake.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/attachment.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/attachment.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/channel.h
  ../deps/sleepy-discord/include/sleepy_discord/discord_object_interface.h
@@ -805,7 +805,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/channel.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/rapidjson/writer.h
  ../deps/sleepy-discord/include/sleepy_discord/snowflake.h
  ../deps/sleepy-discord/include/sleepy_discord/user.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/channel.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/channel.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.o
  ../deps/sleepy-discord/deps/asio/asio/include/asio.hpp
  ../deps/sleepy-discord/deps/asio/asio/include/asio/any_io_executor.hpp
@@ -1544,7 +1544,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/client.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_common.h
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_connection.h
  ../deps/sleepy-discord/include/sleepy_discord/zlib-ng_compression.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/client.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/client.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp.o
  ../deps/sleepy-discord/deps/cpr/include/cpr/api.h
  ../deps/sleepy-discord/deps/cpr/include/cpr/auth.h
@@ -1577,7 +1577,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/cpr_session.cpp
  ../deps/sleepy-discord/include/sleepy_discord/cpr_session.h
  ../deps/sleepy-discord/include/sleepy_discord/error.h
  ../deps/sleepy-discord/include/sleepy_discord/http.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/cpr_session.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/cpr_session.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functions.cpp.o
  ../deps/sleepy-discord/deps/asio/asio/include/asio.hpp
  ../deps/sleepy-discord/deps/asio/asio/include/asio/any_io_executor.hpp
@@ -2314,7 +2314,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/default_functio
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_common.h
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_connection.h
  ../deps/sleepy-discord/include/sleepy_discord/zlib-ng_compression.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/default_functions.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/default_functions.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/embed.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/discord_object_interface.h
  ../deps/sleepy-discord/include/sleepy_discord/embed.h
@@ -2347,7 +2347,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/embed.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/rapidjson/stringbuffer.h
  ../deps/sleepy-discord/include/sleepy_discord/rapidjson/writer.h
  ../deps/sleepy-discord/include/sleepy_discord/snowflake.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/embed.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/embed.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/endpoints.cpp.o
  ../deps/sleepy-discord/deps/asio/asio/include/asio.hpp
  ../deps/sleepy-discord/deps/asio/asio/include/asio/any_io_executor.hpp
@@ -3084,7 +3084,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/endpoints.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_common.h
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_connection.h
  ../deps/sleepy-discord/include/sleepy_discord/zlib-ng_compression.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/endpoints.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/endpoints.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/gateway.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/cache.h
  ../deps/sleepy-discord/include/sleepy_discord/channel.h
@@ -3122,11 +3122,11 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/gateway.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/server.h
  ../deps/sleepy-discord/include/sleepy_discord/snowflake.h
  ../deps/sleepy-discord/include/sleepy_discord/user.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/gateway.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/gateway.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/http.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/error.h
  ../deps/sleepy-discord/include/sleepy_discord/http.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/http.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/http.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/invite.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/cache.h
  ../deps/sleepy-discord/include/sleepy_discord/channel.h
@@ -3164,7 +3164,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/invite.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/server.h
  ../deps/sleepy-discord/include/sleepy_discord/snowflake.h
  ../deps/sleepy-discord/include/sleepy_discord/user.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/invite.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/invite.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json_wrapper.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/json_wrapper.h
  ../deps/sleepy-discord/include/sleepy_discord/nonstd/string_view.hpp
@@ -3192,7 +3192,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/json_wrapper.cp
  ../deps/sleepy-discord/include/sleepy_discord/rapidjson/stream.h
  ../deps/sleepy-discord/include/sleepy_discord/rapidjson/stringbuffer.h
  ../deps/sleepy-discord/include/sleepy_discord/rapidjson/writer.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/json_wrapper.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/json_wrapper.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.o
  ../deps/sleepy-discord/deps/asio/asio/include/asio.hpp
  ../deps/sleepy-discord/deps/asio/asio/include/asio/any_io_executor.hpp
@@ -3929,7 +3929,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/message.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_common.h
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_connection.h
  ../deps/sleepy-discord/include/sleepy_discord/zlib-ng_compression.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/message.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/message.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/cache.h
  ../deps/sleepy-discord/include/sleepy_discord/channel.h
@@ -3966,7 +3966,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/permissions.cpp
  ../deps/sleepy-discord/include/sleepy_discord/server.h
  ../deps/sleepy-discord/include/sleepy_discord/snowflake.h
  ../deps/sleepy-discord/include/sleepy_discord/user.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/permissions.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/permissions.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.o
  ../deps/sleepy-discord/deps/asio/asio/include/asio.hpp
  ../deps/sleepy-discord/deps/asio/asio/include/asio/any_io_executor.hpp
@@ -4703,7 +4703,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/sd_error.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_common.h
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_connection.h
  ../deps/sleepy-discord/include/sleepy_discord/zlib-ng_compression.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/sd_error.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/sd_error.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.o
  ../deps/sleepy-discord/deps/asio/asio/include/asio.hpp
  ../deps/sleepy-discord/deps/asio/asio/include/asio/any_io_executor.hpp
@@ -5440,7 +5440,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/server.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_common.h
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_connection.h
  ../deps/sleepy-discord/include/sleepy_discord/zlib-ng_compression.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/server.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/server.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/discord_object_interface.h
  ../deps/sleepy-discord/include/sleepy_discord/error.h
@@ -5474,7 +5474,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/user.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/rapidjson/writer.h
  ../deps/sleepy-discord/include/sleepy_discord/snowflake.h
  ../deps/sleepy-discord/include/sleepy_discord/user.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/user.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/user.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_websocket.cpp.o
  ../deps/sleepy-discord/deps/asio/asio/include/asio.hpp
  ../deps/sleepy-discord/deps/asio/asio/include/asio/any_io_executor.hpp
@@ -6214,7 +6214,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/uwebsockets_web
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_common.h
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_connection.h
  ../deps/sleepy-discord/include/sleepy_discord/zlib-ng_compression.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/uwebsockets_websocket.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/uwebsockets_websocket.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/channel.h
  ../deps/sleepy-discord/include/sleepy_discord/discord_object_interface.h
@@ -6250,7 +6250,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/snowflake.h
  ../deps/sleepy-discord/include/sleepy_discord/user.h
  ../deps/sleepy-discord/include/sleepy_discord/voice.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/voice.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/voice.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connection.cpp.o
  ../deps/sleepy-discord/deps/asio/asio/include/asio.hpp
  ../deps/sleepy-discord/deps/asio/asio/include/asio/any_io_executor.hpp
@@ -6987,7 +6987,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/voice_connectio
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_common.h
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_connection.h
  ../deps/sleepy-discord/include/sleepy_discord/zlib-ng_compression.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/voice_connection.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/voice_connection.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/webhook.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/cache.h
  ../deps/sleepy-discord/include/sleepy_discord/channel.h
@@ -7025,7 +7025,7 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/webhook.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/snowflake.h
  ../deps/sleepy-discord/include/sleepy_discord/user.h
  ../deps/sleepy-discord/include/sleepy_discord/webhook.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/webhook.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/webhook.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/websocketpp_websocket.cpp.o
  ../deps/sleepy-discord/deps/asio/asio/include/asio.hpp
  ../deps/sleepy-discord/deps/asio/asio/include/asio/any_io_executor.hpp
@@ -7782,8 +7782,8 @@ deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/websocketpp_web
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_connection.h
  ../deps/sleepy-discord/include/sleepy_discord/websocketpp_websocket.h
  ../deps/sleepy-discord/include/sleepy_discord/zlib-ng_compression.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/websocketpp_websocket.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/websocketpp_websocket.cpp
 deps/sleepy-discord/sleepy_discord/CMakeFiles/sleepy-discord.dir/zlib-ng_compression.cpp.o
  ../deps/sleepy-discord/include/sleepy_discord/generic_compression.h
  ../deps/sleepy-discord/include/sleepy_discord/zlib-ng_compression.h
- /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/sleepy_discord/zlib-ng_compression.cpp
+ /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/sleepy_discord/zlib-ng_compression.cpp

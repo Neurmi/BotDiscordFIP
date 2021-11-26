@@ -8,8 +8,8 @@ project(asio-download NONE)
 include(ExternalProject)
 ExternalProject_Add(asio-download
                     GIT_REPOSITORY;https://github.com/chriskohlhoff/asio.git;GIT_TAG;master;UPDATE_DISCONNECTED;1
-                    SOURCE_DIR          "/home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/asio"
-                    BINARY_DIR          "/home/hoernel/Documents/Programme c++/BotDiscord/build/asio-build"
+                    SOURCE_DIR          "/home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/asio"
+                    BINARY_DIR          "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/asio-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

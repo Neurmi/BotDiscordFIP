@@ -1,4 +1,4 @@
-# Install script for directory: /home/hoernel/Documents/Programme c++/BotDiscord/deps/sleepy-discord/deps/websocketpp
+# Install script for directory: /home/hoernel/Documents/Programme c++/BotDiscordFIP/deps/sleepy-discord/deps/websocketpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -47,14 +47,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevx" OR NOT CMAKE_INSTALL_COMPONEN
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local/lib/cmake/websocketpp" TYPE FILE FILES
-    "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/deps/websocketpp/CMakeFiles/websocketpp-config.cmake"
-    "/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/deps/websocketpp/CMakeFiles/websocketpp-configVersion.cmake"
+    "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/deps/websocketpp/CMakeFiles/websocketpp-config.cmake"
+    "/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/deps/websocketpp/CMakeFiles/websocketpp-configVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hoernel/Documents/Programme c++/BotDiscord/build/deps/sleepy-discord/deps/websocketpp/websocketpp/cmake_install.cmake")
+  include("/home/hoernel/Documents/Programme c++/BotDiscordFIP/build/deps/sleepy-discord/deps/websocketpp/websocketpp/cmake_install.cmake")
 
 endif()
 
